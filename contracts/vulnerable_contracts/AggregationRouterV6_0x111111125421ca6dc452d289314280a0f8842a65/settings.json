@@ -1,0 +1,27 @@
+{
+	"optimizer": {
+		"enabled": true,
+		"runs": 1600,
+		"details": {
+			"yul": true,
+			"yulDetails": {
+				"optimizerSteps": "dhfoDgvulfnTUtnIf[xa[r]EscLMcCTUtTOntnfDIulLculVcul [j]Tpeulxa[rul]xa[r]cLCTUca[r]LSsTFOtfDnca[r]Iulc]jmul[jul] VcTOcul jmul : fDnTOc"
+			}
+		}
+	},
+	"evmVersion": "shanghai",
+	"viaIR": true,
+	"outputSelection": {
+		"*": {
+			"*": [
+				"evm.bytecode",
+				"evm.deployedBytecode",
+				"devdoc",
+				"userdoc",
+				"metadata",
+				"abi"
+			]
+		}
+	},
+	"libraries": {}
+}

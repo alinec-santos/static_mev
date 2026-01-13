@@ -1,0 +1,38 @@
+{
+	"remappings": [
+		"@axelar-network/=node_modules/@axelar-network/",
+		"@connext/=node_modules/@connext/",
+		"@eth-optimism/=node_modules/@hop-protocol/sdk/node_modules/@eth-optimism/",
+		"@openzeppelin/=node_modules/@openzeppelin/",
+		"@uniswap/=node_modules/@uniswap/",
+		"create3-factory/=lib/create3-factory/src/",
+		"ds-test/=lib/ds-test/src/",
+		"eth-gas-reporter/=node_modules/eth-gas-reporter/",
+		"forge-std/=lib/forge-std/src/",
+		"hardhat-deploy/=node_modules/hardhat-deploy/",
+		"hardhat/=node_modules/hardhat/",
+		"lifi/=src/",
+		"solmate/=lib/solmate/src/"
+	],
+	"optimizer": {
+		"enabled": true,
+		"runs": 10000
+	},
+	"metadata": {
+		"bytecodeHash": "ipfs"
+	},
+	"outputSelection": {
+		"*": {
+			"*": [
+				"evm.bytecode",
+				"evm.deployedBytecode",
+				"devdoc",
+				"userdoc",
+				"metadata",
+				"abi"
+			]
+		}
+	},
+	"evmVersion": "london",
+	"libraries": {}
+}

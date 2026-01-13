@@ -1,0 +1,37 @@
+{
+	"remappings": [
+		"solmate/=lib/solmate/",
+		"permit2/=lib/permit2/",
+		"forge-std/=lib/forge-std/src/",
+		"forge-gas-snapshot/=lib/forge-gas-snapshot/src/",
+		"ds-test/=lib/forge-std/lib/ds-test/src/"
+	],
+	"optimizer": {
+		"enabled": true,
+		"runs": 1000000,
+		"details": {
+			"constantOptimizer": true,
+			"yul": true
+		}
+	},
+	"metadata": {
+		"useLiteralContent": false,
+		"bytecodeHash": "none",
+		"appendCBOR": false
+	},
+	"outputSelection": {
+		"*": {
+			"*": [
+				"evm.bytecode",
+				"evm.deployedBytecode",
+				"devdoc",
+				"userdoc",
+				"metadata",
+				"abi"
+			]
+		}
+	},
+	"evmVersion": "cancun",
+	"viaIR": true,
+	"libraries": {}
+}

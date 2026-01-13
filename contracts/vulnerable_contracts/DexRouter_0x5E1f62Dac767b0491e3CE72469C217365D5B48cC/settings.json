@@ -1,0 +1,38 @@
+{
+	"remappings": [
+		"@ensdomains/=node_modules/@ensdomains/",
+		"@openzeppelin/=node_modules/@openzeppelin/",
+		"ds-test/=lib/forge-std/lib/ds-test/src/",
+		"eth-gas-reporter/=node_modules/eth-gas-reporter/",
+		"forge-std/=lib/forge-std/src/",
+		"hardhat/=node_modules/hardhat/",
+		"@dex/=contracts/8/",
+		"@uniswap/=node_modules/@uniswap/",
+		"@zetachain/=node_modules/@zetachain/",
+		"erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+		"halmos-cheatcodes/=lib/openzeppelin-contracts/lib/halmos-cheatcodes/src/",
+		"openzeppelin-contracts/=lib/openzeppelin-contracts/"
+	],
+	"optimizer": {
+		"enabled": true,
+		"runs": 1
+	},
+	"metadata": {
+		"useLiteralContent": true,
+		"bytecodeHash": "ipfs"
+	},
+	"outputSelection": {
+		"*": {
+			"*": [
+				"evm.bytecode",
+				"evm.deployedBytecode",
+				"devdoc",
+				"userdoc",
+				"metadata",
+				"abi"
+			]
+		}
+	},
+	"evmVersion": "london",
+	"viaIR": false
+}
