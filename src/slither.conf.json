@@ -1,0 +1,6 @@
+{
+  "detectors_to_run": ["generic-slippage"],
+  "json": "src/resultado_mev.json",
+  "filter_paths": ["node_modules", "test"],
+  "custom_detectors": "src/detectors"
+}

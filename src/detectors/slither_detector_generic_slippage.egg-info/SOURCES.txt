@@ -1,0 +1,10 @@
+setup.py
+generic_slippage/__init__.py
+generic_slippage/detector.py
+generic_slippage/plugin.py
+slither_detector_generic_slippage.egg-info/PKG-INFO
+slither_detector_generic_slippage.egg-info/SOURCES.txt
+slither_detector_generic_slippage.egg-info/dependency_links.txt
+slither_detector_generic_slippage.egg-info/entry_points.txt
+slither_detector_generic_slippage.egg-info/requires.txt
+slither_detector_generic_slippage.egg-info/top_level.txt

@@ -1,0 +1,2 @@
+[slither_analyzer.plugin]
+generic_slippage = generic_slippage.plugin:make_plugin
